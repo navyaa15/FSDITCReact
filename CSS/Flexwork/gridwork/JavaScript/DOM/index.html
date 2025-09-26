@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info</title>
+    <style>
+      
+        #disp {
+            margin-top: 20px;
+            padding: 15px;
+            background: rgb(123, 97, 97);
+            color: rgb(148, 222, 222);
+            width: 320px;
+            
+        }
+        .container{
+            width: 350px;
+            margin: auto;
+            border-radius: 10px;
+            justify-items: center;
+            border-color: black;
+            background-color: rgb(175, 188, 199);
+        }
+        .form{
+            margin-left: 10px;
+        }
+    </style>
+    <script>
+        function getData(){
+            const name = document.getElementById('name').value;
+            const branch = document.getElementById('branch').value;
+            const section = document.getElementById('section').value;
+            const college = document.getElementById('college').value;
+            const location = document.getElementById('location').value;
+            const university = document.getElementById('university').value;
+
+            document.getElementById('disp').innerHTML = `
+                <h2 style="color:yellow; text-align:center;">User Info</h2>
+                <p><b>Name:</b> ${name}</p>
+                <p><b>Branch:</b> ${branch}</p>
+                <p><b>Section:</b> ${section}</p>
+                <p><b>College:</b> ${college}</p>
+                <p><b>Location:</b> ${location}</p>
+                <p><b>University:</b> ${university}</p>
+            `;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+    <h1>Enter User Details</h1>
+    <div class="form">
+        NAME:<input type="text" id="name" placeholder="Enter Name"><br>
+        BRANCH :<input type="text" id="branch" placeholder="Enter Branch"><br>
+        SECTION:<input type="text" id="section" placeholder="Enter Section"><br>
+        COLLEGE:<input type="text" id="college" placeholder="Enter College"><br>
+        LOCATION:<input type="text" id="location" placeholder="Enter Location"><br>
+        UNIVERSITY:<input type="text" id="university" placeholder="Enter University"><br>
+        <button onclick="getData()">Submit</button>
+    
+</div>
+    <div id="disp"></div>
+    </div>  -->
+      <div class="container">Hello</div>
+    <button id="btn">Get Data</button>   
+     <!-- <div id="disp"></div>  -->
+    <script src="index.js"></script>
+</body>
+</html>
